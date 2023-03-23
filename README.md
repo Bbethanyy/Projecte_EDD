@@ -16,7 +16,8 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 - Connectors
 
 ## Diagrama de blocs
-![sistema_maleter](https://user-images.githubusercontent.com/127347516/227178456-3e28ded9-d7c1-47f2-9115-d2e17e3bbf29.jpg)
+![image](https://user-images.githubusercontent.com/128420038/227268940-f2d4ecee-97e2-4adf-a1d6-e2de319b6b33.png)
+
 
 ## Components
 | Ref. | Descripció| Datasheet |
@@ -32,6 +33,7 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 |ADW1112W|Relé|[Datasheet](https://www.datasheetq.com/datasheet-download/853198/1/Panasonic/ADW1112W)|
 |BLDC-48|Brushless motor|[Datasheet](https://www.farnell.com/datasheets/526541.pdf)|
 |GBR-612|Heating Element|[Datasheet](https://www.tme.eu/Document/745dece1e8a1927996aa7af3a5cfc3a0/GBR-612_ENG.pdf)|
+|BC 817/25|BJT|[Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/16111/PHILIPS/BC817-25.html)|
 
 ## Historial de canvis
 |Data| Autor|Descripció|
