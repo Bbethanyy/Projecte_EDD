@@ -38,5 +38,5 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 ## Historial de canvis
 |Data| Autor|Descripció|
 | ------ | -----------------| ------------------|
-|23/03/23|Bethany Quintero i Jan castillo|Segona versió diagrama de blocs i selecció de components|
-|23/03/23|Bethany Quintero i Jan castillo|Correcció diagrama de blocs i afegit el BJT a components|
+|23/03/23|Bethany Quintero i Jan Castillo|Segona versió diagrama de blocs i selecció de components|
+|23/03/23|Bethany Quintero i Jan Castillo|Correcció diagrama de blocs i afegit el BJT a components|
