@@ -16,7 +16,8 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 - Connectors
 
 ## Diagrama de blocs
-![image](https://user-images.githubusercontent.com/128420038/227760079-2a067b36-d3a1-4055-8370-1d98167c2b84.png)
+![image](https://user-images.githubusercontent.com/128420038/227972114-13fa34eb-4549-4986-8626-cb6c34d7e8f4.png)
+
 
 
 ## Components
@@ -27,10 +28,10 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 |FDC2212|Sensor de proximitat|[Datasheet](https://www.ti.com/lit/ds/symlink/fdc2212-q1.pdf?ts=1679569328592&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FFDC2212-Q1)|
 |MCP2551|Transceiver|[Datasheet](https://www.mouser.es/datasheet/2/268/20001667G-1115479.pdf)|
 |ECS-80-20-20A-TR|Oscillador|[Datasheet](https://ecsxtal.com/store/pdf/csm-8r.pdf)|
-|DRV8316C-Q1|Driver|[Datasheet](https://www.ti.com/lit/ds/symlink/drv8316-q1.pdf?HQS=dis-mous-null-mousermode-dsf-pf-null-wwe&ts=1679570127047&ref_url=https%253A%252F%252Fwww.mouser.es%252F)|
 |PSR100|Shunt resistor|[Datasheet](https://fscdn.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/psr-e.pdf)|
 |AD8616|OpAmp|[Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/AD8615_8616_8618.pdf)|
 |ADW1112W|Relé|[Datasheet](https://www.datasheetq.com/datasheet-download/853198/1/Panasonic/ADW1112W)|
+|1393280-5|Relé micro K|[Datasheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=V23086X0000A001&DocType=Data+Sheet&DocLang=English&DocFormat=pdf&PartCntxt=1393280-5)|
 |BLDC-48|Brushless motor|[Datasheet](https://www.farnell.com/datasheets/526541.pdf)|
 |GBR-612|Heating Element|[Datasheet](https://www.tme.eu/Document/745dece1e8a1927996aa7af3a5cfc3a0/GBR-612_ENG.pdf)|
 |BC 817/25|BJT|[Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/16111/PHILIPS/BC817-25.html)|
@@ -57,15 +58,17 @@ I així, podem comprovar que passa la tensió dessitjada:
 ### Control de corrent
 L'últim sistema que podem simular és el sistema d'amplificadors operacionals que permetran regular el corrent del motor i, per tant, el final de carrera d'aquest:
 
-![image](https://user-images.githubusercontent.com/128420038/227760527-590584f8-fda2-4862-8d9c-8565dc532abe.png)
+![image](https://user-images.githubusercontent.com/128420038/227973009-32f7b9f4-af3e-4633-b0ed-c2dde0acfa59.png)
 
-Aleshores es pot comprovar que si la font és de 1.4 A (funcionament normal), la sortida és el valor baix de tensió:
 
-![image](https://user-images.githubusercontent.com/128420038/227760582-1a5dde46-628f-410a-af06-ec3c56cacbf6.png)
+Aleshores es pot comprovar que si la font és de 1.33 A (funcionament normal, donarà el mateix mentres la font sigui menor a 1.95 A), la sortida és el valor baix de saturació:
 
-I en canvi, si la font és de 1.6 A (consum excessiu), la sortida serà el valor alt de tensió:
+![image](https://user-images.githubusercontent.com/128420038/227973981-91ed59a6-89c7-4709-a35f-268436dcaf99.png)
 
-![image](https://user-images.githubusercontent.com/128420038/227760637-740b5e98-470c-4fbb-99e2-24c93138b7e5.png)
+I en canvi, si la font és de 1.95 A o major (consum excessiu), la sortida serà el valor alt de tensió:
+
+![image](https://user-images.githubusercontent.com/128420038/227974125-97844190-c5e8-438f-b9d9-d3b90a6b5c31.png)
+
 
 
 
@@ -75,3 +78,4 @@ I en canvi, si la font és de 1.6 A (consum excessiu), la sortida serà el valor
 |23/03/23|Bethany Quintero i Jan Castillo|Segona versió diagrama de blocs i selecció de components|
 |23/03/23|Bethany Quintero i Jan Castillo|Correcció diagrama de blocs i afegit el BJT a components|
 |26/03/23|Jan Castillo|Actualització diagrama de blocs i components (OPAMP). Afegides les simulacions i els resultats|
+|27/03/23|Jan Castillo|Actualització de components (driver canviat per relés) i, per tant, actualitzat també el diagrama de blocs. Actualització de la simulació del final de carrera|
