@@ -70,7 +70,8 @@ I en canvi, si la font és de 1.95 A o major (consum excessiu), la sortida serà
 ![image](https://user-images.githubusercontent.com/128420038/227974125-97844190-c5e8-438f-b9d9-d3b90a6b5c31.png)
 
 
-
+## Esquemàtic
+![image](https://user-images.githubusercontent.com/127347516/228057428-02113f50-459e-4255-b46f-2762acef0111.png)
 
 ## Historial de canvis
 |Data| Autor|Descripció|
@@ -79,3 +80,4 @@ I en canvi, si la font és de 1.95 A o major (consum excessiu), la sortida serà
 |23/03/23|Bethany Quintero i Jan Castillo|Correcció diagrama de blocs i afegit el BJT a components|
 |26/03/23|Jan Castillo|Actualització diagrama de blocs i components (OPAMP). Afegides les simulacions i els resultats|
 |27/03/23|Jan Castillo|Actualització de components (driver canviat per relés) i, per tant, actualitzat també el diagrama de blocs. Actualització de la simulació del final de carrera|
+|27/02/23| Bethany Quintero | Primera versió de l'esquemàtic|
