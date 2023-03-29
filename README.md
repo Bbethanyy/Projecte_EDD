@@ -16,7 +16,8 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 - Connectors
 
 ## Diagrama de blocs
-![image](https://user-images.githubusercontent.com/128420038/227972114-13fa34eb-4549-4986-8626-cb6c34d7e8f4.png)
+![image](https://user-images.githubusercontent.com/128420038/228496549-4374ed0d-18bf-47f6-8958-5737892fbdd6.png)
+
 
 
 
