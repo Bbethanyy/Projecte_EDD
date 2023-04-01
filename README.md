@@ -16,7 +16,9 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 - Connectors
 
 ## Diagrama de blocs
-![image](https://user-images.githubusercontent.com/128420038/228496549-4374ed0d-18bf-47f6-8958-5737892fbdd6.png)
+![image](https://user-images.githubusercontent.com/128420038/229271515-6c8635ac-a66c-4254-90e3-fb533e24b5fa.png)
+
+
 
 
 
@@ -36,6 +38,8 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 |BLDC-48|Brushless motor|[Datasheet](https://www.farnell.com/datasheets/526541.pdf)|
 |GBR-612|Heating Element|[Datasheet](https://www.tme.eu/Document/745dece1e8a1927996aa7af3a5cfc3a0/GBR-612_ENG.pdf)|
 |BC 817/25|BJT|[Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/16111/PHILIPS/BC817-25.html)|
+|LP3985IM5-5.0V|Level Shifter|[Datasheet](https://www.ti.com/lit/ds/symlink/lp3985.pdf?ts=1680331816532)|
+
 
 ## Simulacions
 Anem a veure diferents simulacions que hem pogut fer amb LTSPICE per comprovar el correcte funcionament del projecte.
@@ -59,16 +63,19 @@ I així, podem comprovar que passa la tensió dessitjada:
 ### Control de corrent
 L'últim sistema que podem simular és el sistema d'amplificadors operacionals que permetran regular el corrent del motor i, per tant, el final de carrera d'aquest:
 
-![image](https://user-images.githubusercontent.com/128420038/227973009-32f7b9f4-af3e-4633-b0ed-c2dde0acfa59.png)
+![image](https://user-images.githubusercontent.com/128420038/229271632-b0513e5e-26a8-4b4c-8614-7f9909abfa8c.png)
 
 
-Aleshores es pot comprovar que si la font és de 1.33 A (funcionament normal, donarà el mateix mentres la font sigui menor a 1.95 A), la sortida és el valor baix de saturació:
 
-![image](https://user-images.githubusercontent.com/128420038/227973981-91ed59a6-89c7-4709-a35f-268436dcaf99.png)
+Aleshores es pot comprovar que si la font és de 1.33 A (funcionament normal), la sortida és el valor baix de saturació:
 
-I en canvi, si la font és de 1.95 A o major (consum excessiu), la sortida serà el valor alt de tensió:
+![image](https://user-images.githubusercontent.com/128420038/229271663-7c15f7c8-27c9-4324-a3b2-15aeda58307d.png)
 
-![image](https://user-images.githubusercontent.com/128420038/227974125-97844190-c5e8-438f-b9d9-d3b90a6b5c31.png)
+
+I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida serà el valor alt de tensió:
+
+![image](https://user-images.githubusercontent.com/128420038/229271793-8ee0b926-4a4c-4e1a-be12-ad74cd024eb2.png)
+
 
 
 ## Esquemàtic
@@ -83,3 +90,4 @@ I en canvi, si la font és de 1.95 A o major (consum excessiu), la sortida serà
 |27/03/23|Jan Castillo|Actualització de components (driver canviat per relés) i, per tant, actualitzat també el diagrama de blocs. Actualització de la simulació del final de carrera|
 |27/03/23| Bethany Quintero | Primera versió de l'esquemàtic|
 |28/03/23| Bethany Quintero | Correcció del driver i afegits els valors dels components que faltaven a l'esquemàtic|
+|1/04/23| Jan Castillo |Afegit Level Shifter a components. Actualització del diagrama de blocs i canviat el valor Vref de la simulació del final de carrera.|
