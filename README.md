@@ -39,7 +39,7 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 |BLDC-48|Brushless motor|[Datasheet](https://www.farnell.com/datasheets/526541.pdf)|
 |GBR-612|Heating Element|[Datasheet](https://www.tme.eu/Document/745dece1e8a1927996aa7af3a5cfc3a0/GBR-612_ENG.pdf)|
 |BC 817/25|BJT|[Datasheet](https://pdf1.alldatasheet.com/datasheet-pdf/view/16111/PHILIPS/BC817-25.html)|
-|TCA39306-Q1|Level Shifter|[Datasheet](https://www.ti.com/lit/ds/symlink/tca39306-q1.pdf?ts=1680420933346&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTCA39306-Q1)|
+|TCA39306|Level Shifter|[Datasheet](https://www.ti.com/lit/ds/symlink/tca39306.pdf?ts=1680614676613&ref_url=https%253A%252F%252Fwww.google.com%252F)|
 
 
 ## Simulacions
@@ -80,7 +80,7 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/127347516/228189060-1a187ca3-eaf3-418f-95d3-da5abeaf0fa1.png)
+![image](https://user-images.githubusercontent.com/127347516/230013616-8b330592-b5b6-4aa3-b537-b1fa5bec3ad1.png)
 
 ## Historial de canvis
 |Data| Autor|Descripció|
@@ -93,3 +93,4 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |28/03/23| Bethany Quintero | Correcció del driver i afegits els valors dels components que faltaven a l'esquemàtic|
 |1/04/23| Jan Castillo |Afegit Level Shifter a components. Actualització del diagrama de blocs i canviat el valor Vref de la simulació del final de carrera.|
 |2/04/23| Jan Castillo |Canviat Level Shifter i, per tant, el diagrama de blocs.|
+|5/04/23| Bethany Quintero | Canviat el model del level shifter. Actualització esquemàtic: afegits els divisors de tensions per Vref i level shifter.|
