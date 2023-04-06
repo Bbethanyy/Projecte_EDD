@@ -80,7 +80,8 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/128420038/230336152-f7755132-6f5f-411b-ba10-1e85d484104d.png)
+![image](https://user-images.githubusercontent.com/128420038/230434314-3caa559b-b6a0-4fce-b165-871f7acd20dd.png)
+
 
 
 ## Historial de canvis
