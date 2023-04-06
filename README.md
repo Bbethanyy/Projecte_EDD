@@ -80,7 +80,8 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/127347516/230013616-8b330592-b5b6-4aa3-b537-b1fa5bec3ad1.png)
+![image](https://user-images.githubusercontent.com/128420038/230336152-f7755132-6f5f-411b-ba10-1e85d484104d.png)
+
 
 ## Historial de canvis
 |Data| Autor|Descripció|
@@ -94,3 +95,4 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |1/04/23| Jan Castillo |Afegit Level Shifter a components. Actualització del diagrama de blocs i canviat el valor Vref de la simulació del final de carrera.|
 |2/04/23| Jan Castillo |Canviat Level Shifter i, per tant, el diagrama de blocs.|
 |5/04/23| Bethany Quintero | Canviat el model del level shifter. Actualització esquemàtic: afegits els divisors de tensions per Vref i level shifter.|
+|6/04/23| Jan Castillo | Alguns canvis a l'esquemàtic.|
