@@ -80,7 +80,7 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/128420038/230434314-3caa559b-b6a0-4fce-b165-871f7acd20dd.png)
+![image](https://user-images.githubusercontent.com/127347516/230476526-5a8675f4-a675-427f-bb47-c9b7d776475a.png)
 
 
 
@@ -97,3 +97,4 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |2/04/23| Jan Castillo |Canviat Level Shifter i, per tant, el diagrama de blocs.|
 |5/04/23| Bethany Quintero | Canviat el model del level shifter. Actualització esquemàtic: afegits els divisors de tensions per Vref i level shifter.|
 |6/04/23| Jan Castillo | Alguns canvis a l'esquemàtic.|
+|6/04/23| Bethany Quintero | Canvi a l'esquemàtic.|
