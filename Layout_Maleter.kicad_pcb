@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Projecte EDD: Maleter")
+    (company "Universitat de Barcelona")
+    (comment 1 "Bethany Quintero")
+    (comment 2 "Jan Castillo")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
@@ -2848,7 +2855,7 @@
     (fp_arc (start 20.965 6.67) (mid 20.672107 7.377107) (end 19.965 7.67) (layer "F.Fab") (width 0.1) (tstamp 662ea353-628e-4800-8ea3-5d0e62a8cc08))
     (fp_arc (start 0.196073 5.57) (mid -0.832387 5.195671) (end -1.379619 4.247837) (layer "F.Fab") (width 0.1) (tstamp 6ba6d114-6fa4-4896-aedb-dadb2015e366))
     (fp_arc (start 11.783194 -2.73) (mid 13.00887 -2.158462) (end 13.358886 -0.852163) (layer "F.Fab") (width 0.1) (tstamp 7927cb37-06aa-46ec-b954-f3ba20f7d6b1))
-    (fp_arc (start 12.459619 4.247837) (mid 11.912389 5.195675) (end 10.883927 5.57) (layer "F.Fab") (width 0.1) (tstamp ffc33891-cc3b-4586-bc5c-442c6212a6dd))
+    (fp_arc (start 12.459619 4.247837) (mid 11.912388 5.195671) (end 10.883927 5.57) (layer "F.Fab") (width 0.1) (tstamp ffc33891-cc3b-4586-bc5c-442c6212a6dd))
     (pad "1" thru_hole rect (at 0 0 270) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 17 "unconnected-(J2-Pad1)") (pinfunction "1") (pintype "passive+no_connect") (tstamp 12422358-9e9e-49b0-be02-3e5facff2dcf))
     (pad "2" thru_hole circle (at 2.77 0 270) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
