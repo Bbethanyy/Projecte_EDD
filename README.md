@@ -91,7 +91,7 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Historial de canvis
-|Data| Autor|Descripció|
+|Data| Autor/a |Descripció|
 | ------ | -----------------| ------------------|
 |23/03/23|Bethany Quintero i Jan Castillo|Segona versió diagrama de blocs i selecció de components|
 |23/03/23|Bethany Quintero i Jan Castillo|Correcció diagrama de blocs i afegit el BJT a components|
