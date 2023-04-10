@@ -80,7 +80,13 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/127347516/230490321-dcf9b3fa-d99e-4324-ad80-138ba54876e7.png)
+![image](https://user-images.githubusercontent.com/127347516/230963120-2baa00c0-b32f-429a-b891-1db578f01f9a.png)
+
+## Layout
+![image](https://user-images.githubusercontent.com/127347516/230963364-444642c7-471c-4e10-a308-bdf73de773ef.png)
+
+## 3D Model
+![image](https://user-images.githubusercontent.com/127347516/230963483-fc79ef15-3ec2-4a93-8964-1bc1b3172276.png)
 
 
 
@@ -98,3 +104,5 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |5/04/23| Bethany Quintero | Canviat el model del level shifter. Actualització esquemàtic: afegits els divisors de tensions per Vref i level shifter.|
 |6/04/23| Jan Castillo | Alguns canvis a l'esquemàtic.|
 |6/04/23| Bethany Quintero | Canvi a l'esquemàtic.|
+|9/04/23| Bethany Quintero | Canvi de nets a l'esquemàtic|
+|10/04/23| Jan Castillo i Bethany Quintero |Primera versió Layout|
