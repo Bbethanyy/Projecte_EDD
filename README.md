@@ -16,7 +16,9 @@ Dissenyar un sistema electrònic capaç d'obrir un maleter d'un automòbil utili
 - Connectors
 
 ## Diagrama de blocs
-![image](https://user-images.githubusercontent.com/128420038/229339225-fc47c08a-41fb-4cfa-a7b3-572c4002b129.png)
+![image](https://user-images.githubusercontent.com/128420038/233825906-a12339f0-72f9-4510-8a85-f58f14335250.png)
+
+
 
 
 
@@ -80,13 +82,16 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Esquemàtic
-![image](https://user-images.githubusercontent.com/127347516/230963120-2baa00c0-b32f-429a-b891-1db578f01f9a.png)
+![image](https://user-images.githubusercontent.com/128420038/233825973-53deaa02-17bd-4681-b001-617c45e16158.png)
+
 
 ## Layout
-![image](https://user-images.githubusercontent.com/127347516/230963364-444642c7-471c-4e10-a308-bdf73de773ef.png)
+![image](https://user-images.githubusercontent.com/128420038/233826438-b03afc99-19bf-4384-b9ad-912167408e00.png)
+
 
 ## 3D Model
-![image](https://user-images.githubusercontent.com/127347516/230963483-fc79ef15-3ec2-4a93-8964-1bc1b3172276.png)
+![image](https://user-images.githubusercontent.com/128420038/233826459-a53e86c0-dd47-47e7-90e2-bee8354d0589.png)
+
 
 
 
@@ -104,5 +109,6 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |5/04/23| Bethany Quintero | Canviat el model del level shifter. Actualització esquemàtic: afegits els divisors de tensions per Vref i level shifter.|
 |6/04/23| Jan Castillo | Alguns canvis a l'esquemàtic.|
 |6/04/23| Bethany Quintero | Canvi a l'esquemàtic.|
-|9/04/23| Bethany Quintero | Canvi de nets a l'esquemàtic|
-|10/04/23| Jan Castillo i Bethany Quintero |Primera versió Layout|
+|9/04/23| Bethany Quintero | Canvi de nets a l'esquemàti.c|
+|10/04/23| Jan Castillo i Bethany Quintero |Primera versió Layout.|
+|23/04/23| Jan Castillo i Bethany Quintero |Actualització diagrama de blocs, esquemàtic i layout finals.|
