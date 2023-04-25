@@ -96,7 +96,7 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Costos finals:
-|Cantitat de components| Preu |Stencil|
+|Cantitat de PCBs| Preu |Stencil|
 | ------ | -----------------| ------------------|
 |10|562,668 €|No|
 |50|2520,3 €|Sí|
