@@ -86,13 +86,22 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Layout
-![image](https://user-images.githubusercontent.com/128420038/233826438-b03afc99-19bf-4384-b9ad-912167408e00.png)
+![image](https://user-images.githubusercontent.com/128420038/234313503-2016fbea-1e7e-4323-bb3f-6242d5f9183d.png)
+
 
 
 ## 3D Model
-![image](https://user-images.githubusercontent.com/128420038/233826459-a53e86c0-dd47-47e7-90e2-bee8354d0589.png)
+![image](https://user-images.githubusercontent.com/128420038/234313625-103b7fb3-4c60-4a50-ba35-08e04b490eac.png)
 
 
+
+## Costos finals:
+|Cantitat de components| Preu |Stencil|
+| ------ | -----------------| ------------------|
+|10|562,668 €|No|
+|50|2520,3 €|Sí|
+|1000|36316,84 €|Sí|
+|20000|709205,21 €|Sí|
 
 
 ## Historial de canvis
@@ -112,3 +121,4 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 |9/04/23| Bethany Quintero | Canvi de nets a l'esquemàti.c|
 |10/04/23| Jan Castillo i Bethany Quintero |Primera versió Layout.|
 |23/04/23| Jan Castillo i Bethany Quintero |Actualització diagrama de blocs, esquemàtic i layout finals.|
+|25/04/23| Jan Castillo i Bethany Quintero |Afegit de pressupostos i petits canvis al layout.|
