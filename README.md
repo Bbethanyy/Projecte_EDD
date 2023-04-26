@@ -86,12 +86,14 @@ I en canvi, si la font és de 1.95 A (realment es retallaria abans), la sortida 
 
 
 ## Layout
-![image](https://user-images.githubusercontent.com/128420038/234313503-2016fbea-1e7e-4323-bb3f-6242d5f9183d.png)
+![image](https://user-images.githubusercontent.com/128420038/234601177-6b7ba969-cdab-499b-b11a-2b3b56a43603.png)
+
 
 
 
 ## 3D Model
-![image](https://user-images.githubusercontent.com/128420038/234313625-103b7fb3-4c60-4a50-ba35-08e04b490eac.png)
+![image](https://user-images.githubusercontent.com/128420038/234602933-52c36f1a-0a92-4876-b458-3238ec9a3cb5.png)
+
 
 
 
